@@ -35,7 +35,7 @@ module Metasploit3
 	end
     
 	#
-	# Override the exec command string - this is super ghetto and I'm gonna do this in asm with c0relanc0der instead.
+	# Override the exec command string - the send keys code is super ghetto and I'm gonna do this in asm with corelanc0d3r instead.
 	# The awesome keys idea goes to Josh
 	#
 	def command_string
