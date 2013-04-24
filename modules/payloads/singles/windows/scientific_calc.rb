@@ -36,6 +36,7 @@ module Metasploit3
     
 	#
 	# Override the exec command string - this is super ghetto and I'm gonna do this in asm with c0relanc0der instead.
+	# The awesome keys idea goes to Josh
 	#
 	def command_string
 		reg_edit = 'reg add "HKCU\Software\Microsoft\Calc" /f /v layout /t REG_DWORD /d 0'
